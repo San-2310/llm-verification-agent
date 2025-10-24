@@ -227,8 +227,3 @@ Verification agent → fact-checks + flags inconsistencies.
 - Groq API is OpenAI-compatible, so any OpenAI client or `requests` works.
 - Keep `.env` out of version control (`.gitignore` included).
 - Free Groq tier may throttle long prompts (>2000 tokens). Reduce `max_tokens` if needed.
-
-```
-
-
-```
