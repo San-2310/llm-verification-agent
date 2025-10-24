@@ -1,4 +1,3 @@
-```markdown
 # Verification Agent – Multi-Agent Investment Analyst (LLM Capstone)
 
 ## Overview
@@ -17,6 +16,7 @@ The output is a structured JSON verdict containing validity, reasoning, and conf
 ---
 
 ## System Architecture (Simplified)
+
 ```
 
 Analyst Agent → produces metrics (P/E, growth, EPS)
@@ -25,9 +25,10 @@ Thesis Agent → produces human-like investment thesis
 ↓
 Verification Agent (this module) → checks consistency and explains verdict
 
-````
+```
 
 ### Verification Flow:
+
 1. **Input**: JSON containing analyst data and thesis text.
 2. **FinBERT sentiment analysis** → understand tone (bullish, bearish, neutral).
 3. **Groq LLM verification** → reasoning-based consistency check between data and thesis.
@@ -46,10 +47,11 @@ Verification Agent (this module) → checks consistency and explains verdict
   - Adds interpretability layer to reasoning output.
 
 **Example:**
+
 ```python
 get_finbert_sentiment("Apple has strong growth potential and is undervalued.")
 # → {"sentiment": "positive", "confidence": 0.92}
-````
+```
 
 ---
 
@@ -227,5 +229,6 @@ Verification agent → fact-checks + flags inconsistencies.
 - Free Groq tier may throttle long prompts (>2000 tokens). Reduce `max_tokens` if needed.
 
 ```
+
 
 ```
