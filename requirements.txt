@@ -1,0 +1,5 @@
+requests
+transformers>=4.30.0
+torch
+sentencepiece
+python-dotenv

@@ -1,0 +1,13 @@
+{
+  "company": "AAPL",
+  "analyst_data": {
+    "pe_ratio": 32,
+    "revenue_growth": 0.05,
+    "eps": 6.2,
+    "notes": "Last 4 quarters revenue growth averaged 5%."
+  },
+  "thesis": {
+    "stance": "bullish",
+    "claim": "Apple has 50% revenue growth potential and is undervalued."
+  }
+}
