@@ -69,7 +69,7 @@ get_finbert_sentiment("Apple has strong growth potential and is undervalued.")
 
 | Model Name             | Description                 | Use Case                 |
 | ---------------------- | --------------------------- | ------------------------ |
-| `llama-3.1-8b-instant` | Lightweight, fast           | Ideal for hackathon/demo |
+| `llama-3.1-8b-instant` | Lightweight, fast           | Ideal for demo |
 | `llama3-70b-8192`      | High accuracy               | Heavy-duty validation    |
 | `mixtral-8x7b-32768`   | Balanced mixture-of-experts | Deep reasoning           |
 | `gemma-7b-it`          | Efficient instruction model | Backup option            |
